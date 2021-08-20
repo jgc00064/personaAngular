@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { IPersona } from 'src/app/Interfaces/Interfaz.persona';
+import { PersonaInterface } from '../persona.Interface';
 
 
 @Injectable({
@@ -14,7 +15,7 @@ export class PersonaService {
 
 
       const url ='http://localhost:3000/persons';
-      return this.http.get( url);
+      return this.http.get<Array<PersonaInterface>>(url);
   }
   
 }
