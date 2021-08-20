@@ -1,0 +1,43 @@
+{
+  "persons": [
+    {
+      "id": 1,
+      "user": "Juan",
+      "password": "lñkasfñl",
+      "surname": "jgc",
+      "company_email": "juan.garcia@bosonit.com",
+      "personal_email": "otro@gmail.com",
+      "city": "Jaén",
+      "active": true,
+      "created": "2016-12-18",
+      "imagen_url": ""
+    },
+    {
+      "id": 2
+    },
+    {
+      "user": "jñkasjklñ",
+      "apellido": "lñkasdlkjñ",
+      "password": "lñksadljñk",
+      "company_email": "lñkasl@lkñasdf.com",
+      "personal_email": "lñas@ljkasl.com",
+      "city": "jaen",
+      "active": "on",
+      "create_date": "2018-5-15",
+      "imagen_url": "lasl",
+      "id": 3
+    },
+    {
+      "user": "lasjl",
+      "apellido": "lñkasdlj",
+      "password": "lñkasj",
+      "company_email": "lñkasljf",
+      "personal_email": "aslkjflj",
+      "city": "aslñkfl",
+      "active": "on",
+      "create_date": "alsfl",
+      "imagen_url": "alskfd",
+      "id": 4
+    }
+  ]
+}

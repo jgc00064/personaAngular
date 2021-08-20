@@ -1,0 +1,53 @@
+hr {
+    border: 2px none #000000;
+    border-top:6px solid #10033f;
+    height: 1px;
+    margin: 5px 0;
+    display:block;
+
+}
+
+h1 {
+
+    color: rgb(15, 59, 6);
+    font-style: italic;
+    
+}
+
+.contenedor1{
+
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.card{
+   
+    margin-left: 20px;
+    background: cornsilk;
+    border:solid black;
+
+}
+
+.tabla{
+    
+    display: flex;
+    flex-direction:column;
+    flex-wrap:initial;
+    justify-content:left;
+    width: 400px;
+    height: 220px;
+    background: white;
+    margin: 5px
+
+}
+
+.card{
+
+    display: flex;
+    flex-direction:column;
+    flex-wrap:initial;
+    justify-content:center;
+}
+
