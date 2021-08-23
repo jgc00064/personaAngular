@@ -24,16 +24,24 @@ h1 {
     flex-direction: initial;
 
   }
+.container{
+  display: flex;
+  flex-direction: row;
 
-  nav {
-    display: flex;
+  height: 60px;
+  width: 100%;
+  border: solid 10px black; 
+  background:darkslategrey;
+}
 
-    justify-content:left;
+a{
 
-    align-items:flex-start;
-    
-
-    
-
-  }
-  
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 10px;
+  height:30px;
+  border:solid 5px black;
+  background: darkslategrey ;
+  color:white;
+}

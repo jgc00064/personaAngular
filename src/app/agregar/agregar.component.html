@@ -7,40 +7,37 @@
   
         <div class="form-group">
             <label for="usuario">Usuario: </label>
-            <input type="text" class="form-control" formControlName="usuario"  required>
+            <input type="text" class="form-control" formControlName="user"  required>
         </div><!-- por defecto es text-->
     
         <div class="form-group" >
             <label for="contraseña">Contraseña: </label>
-            <input type="text" class="form-control" formControlName="contraseña" required>
+            <input type="password" class="form-control" formControlName="password" required>
         </div>
         <div class="form-group" >
             <label for="email_company">Email de la compañia: </label>
-            <input type="text" class="form-control" formControlName="email_company" required>
+            <input type="text" class="form-control" formControlName="company_email" required>
         </div>
         <div class="form-group" >
             <label for="email_personal">Email personal: </label>
-            <input type="text" class="form-control" formControlName="email_personal" required>
+            <input type="text" class="form-control" formControlName="personal_email" required>
         </div>
         <div class="form-group">
              <label for="ciudad">Ciudad: </label>
-            <input type="text" class="form-control" formControlName="ciudad" required>
+            <input type="text" class="form-control" formControlName="city" required>
         </div>
          <div class="form-group">
             <label for="url_imagen">url de la imagen: </label>
-            <input type="text"class="form-control" formControlName="url_imagen" required>
+            <input type="text"class="form-control" formControlName="imagen_url" required>
         </div>
         <div class="form-group">
             <label for="fecha_inicio">Fecha de inicio: </label>
-            <input type="date" class="form-control" formControlName="fecha_inicio" required>
+            <input type="date" class="form-control" formControlName="created_date" required>
         </div>
-        <div class="form-group">
-            <label for="fecha_final">Fecha final: </label>
-            <input type="date" class="form-control" formControlName="fecha_final">
-        </div>
+        
         <div class="form-group">
              <label for="activado">Activado:  </label>
-            <input type="checkbox" class="form-control" formControlName="activado" required>
+            <input type="checkbox" class="form-control" formControlName="active" required>
         </div>
         
     <button type="submit" class="boton" >Enviar</button>

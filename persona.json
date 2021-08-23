@@ -38,6 +38,30 @@
       "create_date": "alsfl",
       "imagen_url": "alskfd",
       "id": 4
+    },
+    {
+      "user": "Juuaannnnn",
+      "password": "lkjñaslfas",
+      "surname": "jgc",
+      "company_email": "jgc@company.com",
+      "personal_email": "jgc@personal.com",
+      "city": "Jaén",
+      "active": true,
+      "created_date": "2019-12-31",
+      "imagen_url": "www.laslñasl.com",
+      "termination_date": "2020-04-10",
+      "id": 5
+    },
+    {
+      "user": "ljkasljka",
+      "password": "",
+      "company_email": "",
+      "personal_email": "",
+      "city": "",
+      "imagen_url": "",
+      "created_date": "",
+      "active": "",
+      "id": 6
     }
   ]
 }
