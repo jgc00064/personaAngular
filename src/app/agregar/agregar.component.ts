@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
-import { PersonaService } from '../persona/servicios/persona.service';
+import { ActivatedRoute, Router } from '@angular/router';
+import { PersonaInterface } from '../Interfaces/persona.Interface';
+
 import { UsuariosService } from '../services/usuarios.service';
 
 @Component({
@@ -9,8 +11,24 @@ import { UsuariosService } from '../services/usuarios.service';
   styleUrls: ['./agregar.component.css']
 })
 export class AgregarComponent implements OnInit {
+  PersonaInterface: any;
+  router: any;
+  UsuarioService: any;
+  person: PersonaInterface={
+    id: 0,
+    user:'',
+    password: '',
+    company_email:'',
+    personal_email:'',
+    city:'',
+    created: new Date()
+    
+  }
 
-  constructor(private formBuilder : FormBuilder,private servicio:UsuariosService) { }
+  constructor(private formBuilder : FormBuilder,
+              private servicio:UsuariosService,
+              private activatedRoute: ActivatedRoute,
+              private route: Router) { }
 
   registerForm = this.formBuilder.group({
     
@@ -30,7 +48,17 @@ export class AgregarComponent implements OnInit {
    // console.log(this.registerForm.value);
    this.servicio.agregarPerson(this.registerForm.value).subscribe(() => {alert("Usuario añadido")}); // esto es para añadir un usuario a la lista persona.json
   }
-  ngOnInit(): void {
-  }
+
+    ngOnInit(): void {
+       
+      
+    }
+
 
 }
+
+
+//function switchMap(arg0: ({ id }: { id: any; }) => any): import("rxjs").OperatorFunction<import("@angular/router").Params, unknown> {
+  //throw new Error('Function not implemented.');
+//}
+

@@ -1,0 +1,24 @@
+
+<div class="card">
+    <div><h3>tarjeta persona</h3>
+        
+        <p>Usuario: {{person.user}} </p>
+        <p>Email_compañia:{{person.company_email}} </p>
+        <p>Email_personal:{{person.personal_email}} </p>
+        <p>Ciudad:{{person.city}}</p>
+        <p>Fecha inicio: {{person.created}} </p>
+        
+        <button mat-button
+            color="warn"
+            *ngIf="person.id"
+            (click)="borrarPerson(person.id)">
+            Borrar
+        </button>
+        
+         <button mat-button (click)="ActualizarPerson()">
+
+            Editar
+    <!-- <a routerLink="editar"> Editar</a> --> 
+        </button>
+
+    

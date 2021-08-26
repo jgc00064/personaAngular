@@ -1,7 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
-import { PersonaInterface } from '../persona.Interface';
+
+import { PersonaInterface } from '../../Interfaces/persona.Interface';
 
 
 @Injectable({
@@ -15,6 +16,19 @@ export class PersonaService {
 
       const url ='http://localhost:3000/persons';
       return this.http.get<Array<PersonaInterface>>(url);
+  }
+
+  borrarPerson(persona: PersonaInterface){
+
+    const url='http://localhost:3000/persons/'+persona.id
+    return this.http.delete<PersonaInterface>(url);
+  }
+
+  getPersonPorId(id:number){
+
+    const url='http://localhost:3000/persons/'+id
+    return this.http.get<PersonaInterface>(url)
+
   }
   
 }

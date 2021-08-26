@@ -4,16 +4,24 @@ import { RouterModule, Routes } from '@angular/router';
 import { PersonaComponent } from './persona/persona.component';
 import { AgregarComponent } from './agregar/agregar.component';
 import { EstudianteComponent } from './estudiante/estudiante.component';
+import { AppComponent } from './app.component';
+import { EditarComponent } from './persona/editar/editar.component';
 
 
 
-const routes :Routes = [
+const routes: Routes = [
 
   //{path:'', redirectTo: 'persona',pathMatch:'full'},
-  {path:'persona', component:PersonaComponent},
-  {path:'estudiante',component:EstudianteComponent},
- // {path:'', redirectTo:'agregar',pathMatch:'full'},
-  {path:'agregar',component:AgregarComponent}
+  { path: 'pagina principal', component: AppComponent },
+
+  { path: 'persona', component: PersonaComponent },
+  { path: 'estudiante', component: EstudianteComponent },
+  //{path:'', redirectTo:'agregar',pathMatch:'full'},
+  { path: 'pagina principal', component: AppComponent },
+  { path: 'añadir', component: AgregarComponent },
+  // {path:'pagina principal',component:AppComponent}
+  { path: 'persona/editar/:id', component: EditarComponent }
+
 ];
 
 @NgModule({

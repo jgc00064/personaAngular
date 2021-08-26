@@ -1,0 +1,35 @@
+<h2>Formulario para editar una persona</h2>
+<hr> 
+
+<div class="Contenedor1">
+
+    <form (submit)= "ActualizaPersona()" [formGroup]="registerForm">
+  
+        <div class="form-group">
+            <label for="usuario">Usuario: </label>
+            <input type="text" class="form-control" formControlName="user"  required>
+        </div><!-- por defecto es text-->
+    
+        <div class="form-group" >
+            <label for="email_company">Email de la compañia: </label>
+            <input type="text" class="form-control" formControlName="company_email" required>
+        </div>
+
+        <div class="form-group" >
+            <label for="email_personal">Email personal: </label>
+            <input type="text" class="form-control" formControlName="personal_email" required>
+        </div>
+        <div class="form-group">
+             <label for="ciudad">Ciudad: </label>
+            <input type="text" class="form-control" formControlName="city" required>
+        </div>
+         
+        <div class="form-group">
+            <label for="fecha_inicio">Fecha de inicio: </label>
+            <input type="date" class="form-control" formControlName="created_date" required>
+        </div>
+        
+        
+    <button type="submit" class="boton" >Enviar</button>
+    </form>
+</div>

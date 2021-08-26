@@ -1,59 +1,7 @@
 {
   "persons": [
     {
-      "id": 1,
       "user": "Juan",
-      "password": "lñkasfñl",
-      "surname": "jgc",
-      "company_email": "juan.garcia@bosonit.com",
-      "personal_email": "otro@gmail.com",
-      "city": "Jaén",
-      "active": true,
-      "created": "2016-12-18",
-      "imagen_url": ""
-    },
-    {
-      "id": 2
-    },
-    {
-      "user": "jñkasjklñ",
-      "apellido": "lñkasdlkjñ",
-      "password": "lñksadljñk",
-      "company_email": "lñkasl@lkñasdf.com",
-      "personal_email": "lñas@ljkasl.com",
-      "city": "jaen",
-      "active": "on",
-      "create_date": "2018-5-15",
-      "imagen_url": "lasl",
-      "id": 3
-    },
-    {
-      "user": "lasjl",
-      "apellido": "lñkasdlj",
-      "password": "lñkasj",
-      "company_email": "lñkasljf",
-      "personal_email": "aslkjflj",
-      "city": "aslñkfl",
-      "active": "on",
-      "create_date": "alsfl",
-      "imagen_url": "alskfd",
-      "id": 4
-    },
-    {
-      "user": "Juuaannnnn",
-      "password": "lkjñaslfas",
-      "surname": "jgc",
-      "company_email": "jgc@company.com",
-      "personal_email": "jgc@personal.com",
-      "city": "Jaén",
-      "active": true,
-      "created_date": "2019-12-31",
-      "imagen_url": "www.laslñasl.com",
-      "termination_date": "2020-04-10",
-      "id": 5
-    },
-    {
-      "user": "ljkasljka",
       "password": "",
       "company_email": "",
       "personal_email": "",
@@ -61,7 +9,18 @@
       "imagen_url": "",
       "created_date": "",
       "active": "",
-      "id": 6
+      "id": 1
+    },
+    {
+      "user": "Juan",
+      "password": "",
+      "company_email": "",
+      "personal_email": "",
+      "city": "",
+      "imagen_url": "",
+      "created_date": "",
+      "active": "",
+      "id": 2
     }
   ]
 }

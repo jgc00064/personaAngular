@@ -8,6 +8,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { EstudianteComponent } from './estudiante/estudiante.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AgregarComponent } from './agregar/agregar.component';
+import { PersonaCardComponent } from './persona-card/persona-card.component';
+import { EditarComponent } from './persona/editar/editar.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { AgregarComponent } from './agregar/agregar.component';
    
     EstudianteComponent,
     AgregarComponent,
+    PersonaCardComponent,
+    EditarComponent,
     
   ],
   imports: [
